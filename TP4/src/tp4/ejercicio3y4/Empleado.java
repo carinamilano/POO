@@ -1,6 +1,6 @@
-package tp4.ejercicio3;
+package tp4.ejercicio3y4;
 
-public class Empleado {
+public class Empleado implements Pagable {
     protected String nombre;
     protected double sueldo;
 
@@ -10,6 +10,10 @@ public class Empleado {
     }
     public double calcularSueldo() {
         return sueldo;
+    }
+    @Override
+    public double calcularPago() {
+        return calcularSueldo();
     }
 
 }

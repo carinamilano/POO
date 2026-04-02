@@ -1,6 +1,6 @@
-package tp4.ejercicio3;
+package tp4.ejercicio3y4;
 
-public class EmpleadoContratado extends Empleado {
+public class EmpleadoContratado extends Empleado implements Pagable {
     private double valorHora;
     private int horasTrabajadas;
 
@@ -14,5 +14,9 @@ public class EmpleadoContratado extends Empleado {
     public double calcularSueldo() {
         return horasTrabajadas * valorHora;
 
+    }
+    @Override
+    public double calcularPago() {
+        return calcularSueldo();
     }
 }
