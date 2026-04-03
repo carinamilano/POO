@@ -2,8 +2,15 @@ package tp4.ejercicio11;
 
 public class Circulo extends Figura{
     private double radio;
-    public Circulo(double radio){
+    private String color;
+
+    public Circulo(double radio) {
+        this.radio = radio;
+    }
+
+    public Circulo(double radio,String color){
         this.radio=radio;
+        this.color=color;
     }
     @Override
     public double calcularArea(){
