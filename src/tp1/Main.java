@@ -26,7 +26,7 @@ public class Main {
 
         Avion unAvion = new Avion("Boeing","747",unMotor,unSistVuelo,listAlas,300,true);
 
-            System.out.print(unAvion.toString());
+            System.out.print(unAvion);
 
         }
 

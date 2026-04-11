@@ -29,8 +29,8 @@ public class Avion {
         return "[AVION " +
                 "  marca='" + marca + '\'' + ", \n"+
                 "  modelo='" + modelo + '\'' + ", \n"+
-                "  motor=" + motor.toString() + ", \n"+
-                "  sistema de vuelo=" + sisVuelo.toString() + ", \n"+
+                "  motor=" + motor + ", \n"+
+                "  sistema de vuelo=" + sisVuelo + ", \n"+
                 "  alas=" + Arrays.toString(listAla) + ", \n"+
                 "  numeroAsientos=" + numeroAsientos + ", \n"+
                 "  entretenimiento=" + entretenimiento + ", \n"+
