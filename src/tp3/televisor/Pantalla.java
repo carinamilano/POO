@@ -1,3 +1,5 @@
+package tp3.televisor;
+
 public class Pantalla {
     private int pulgadas;
     private String resolucion;

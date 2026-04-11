@@ -1,3 +1,5 @@
+package tp3.televisor;
+
 public class Televisor {
     private String marca;
     private String modelo;

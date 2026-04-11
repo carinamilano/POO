@@ -1,3 +1,4 @@
+package tp3.arreglos;
 
 public class Main {
     public static void main(String[] args) {

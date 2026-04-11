@@ -1,7 +1,7 @@
+package tp1;
 
-
-import Partes.Ala;
-import Partes.Motor;
+import tp1.partes.Ala;
+import tp1.partes.Motor;
 
 import java.util.Arrays;
 

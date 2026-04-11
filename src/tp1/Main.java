@@ -1,5 +1,7 @@
-import Partes.Ala;
-import Partes.Motor;
+package tp1;
+
+import tp1.partes.Ala;
+import tp1.partes.Motor;
 
 
 public class Main {

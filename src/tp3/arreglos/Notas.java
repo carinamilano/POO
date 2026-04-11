@@ -1,3 +1,5 @@
+package tp3.arreglos;
+
 public class Notas {
 
     private double[] notas = {10.0, 8.5, 4.0, 9.0, 7.5};

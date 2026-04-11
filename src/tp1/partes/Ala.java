@@ -1,4 +1,4 @@
-package Partes;
+package tp1.partes;
 public class Ala {
    private double envergadura;
    private String color;
