@@ -30,7 +30,7 @@ public class Main {
         int opcion;
 
         do {
-            System.out.println("\n--- MENU ---");
+            System.out.println("\n----- MENU -----");
             System.out.println("1. Agregar libro");
             System.out.println("2. Mostrar libros");
             System.out.println("3. Buscar libro");
